@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA853E1217BB50560020DDCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA853E1117BB50550020DDCD /* UIKit.framework */; };
+		DA853E1417BB50560020DDCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA853E1317BB50560020DDCD /* Foundation.framework */; };
+		DA853E1617BB50560020DDCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA853E1517BB50560020DDCD /* CoreGraphics.framework */; };
+		DA853E1C17BB50560020DDCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA853E1A17BB50560020DDCD /* InfoPlist.strings */; };
+		DA853E1E17BB50560020DDCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA853E1D17BB50560020DDCD /* main.m */; };
+		DA853E2217BB50560020DDCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA853E2117BB50560020DDCD /* AppDelegate.m */; };
+		DA853E2417BB50560020DDCD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DA853E2317BB50560020DDCD /* Default.png */; };
+		DA853E2617BB50560020DDCD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA853E2517BB50560020DDCD /* Default@2x.png */; };
+		DA853E2817BB50560020DDCD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA853E2717BB50560020DDCD /* Default-568h@2x.png */; };
+		DA853E2B17BB50560020DDCD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA853E2917BB50560020DDCD /* MainStoryboard.storyboard */; };
+		DA853E2E17BB50560020DDCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA853E2D17BB50560020DDCD /* ViewController.m */; };
+		DA853E3617BB50560020DDCD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA853E3517BB50560020DDCD /* SenTestingKit.framework */; };
+		DA853E3717BB50560020DDCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA853E1117BB50550020DDCD /* UIKit.framework */; };
+		DA853E3817BB50560020DDCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA853E1317BB50560020DDCD /* Foundation.framework */; };
+		DA853E4017BB50560020DDCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA853E3E17BB50560020DDCD /* InfoPlist.strings */; };
+		DA853E4317BB50560020DDCD /* InterfaceOnlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA853E4217BB50560020DDCD /* InterfaceOnlyTests.m */; };
+		DA9E585217C16F82008434AC /* RangeChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9E585117C16F82008434AC /* RangeChecker.m */; };
+		DAD9D36017C476D300B74D83 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD9D35F17C476D300B74D83 /* WebViewController.m */; };
+		DAD9D3A317C5344F00B74D83 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD9D3A217C5344F00B74D83 /* InfoViewController.m */; };
+		DAD9D3A517C598CD00B74D83 /* btn_hivdb.gif in Resources */ = {isa = PBXBuildFile; fileRef = DAD9D3A417C598CD00B74D83 /* btn_hivdb.gif */; };
+		DAD9D3A717C59A7300B74D83 /* Stanford-University.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAD9D3A617C59A7300B74D83 /* Stanford-University.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA853E3917BB50560020DDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA853E0617BB50550020DDCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA853E0D17BB50550020DDCD;
+			remoteInfo = InterfaceOnly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA853E0E17BB50550020DDCD /* HIVDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIVDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA853E1117BB50550020DDCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA853E1317BB50560020DDCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA853E1517BB50560020DDCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA853E1917BB50560020DDCD /* HIVDB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HIVDB-Info.plist"; sourceTree = "<group>"; };
+		DA853E1B17BB50560020DDCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA853E1D17BB50560020DDCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA853E1F17BB50560020DDCD /* HIVDB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HIVDB-Prefix.pch"; sourceTree = "<group>"; };
+		DA853E2017BB50560020DDCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA853E2117BB50560020DDCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA853E2317BB50560020DDCD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DA853E2517BB50560020DDCD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DA853E2717BB50560020DDCD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DA853E2A17BB50560020DDCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DA853E2C17BB50560020DDCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA853E2D17BB50560020DDCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA853E3417BB50560020DDCD /* HIVDBTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HIVDBTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA853E3517BB50560020DDCD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DA853E3D17BB50560020DDCD /* HIVDBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HIVDBTests-Info.plist"; sourceTree = "<group>"; };
+		DA853E3F17BB50560020DDCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA853E4117BB50560020DDCD /* InterfaceOnlyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceOnlyTests.h; sourceTree = "<group>"; };
+		DA853E4217BB50560020DDCD /* InterfaceOnlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceOnlyTests.m; sourceTree = "<group>"; };
+		DA9E585017C16F82008434AC /* RangeChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RangeChecker.h; sourceTree = "<group>"; };
+		DA9E585117C16F82008434AC /* RangeChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RangeChecker.m; sourceTree = "<group>"; };
+		DAD9D35E17C476D300B74D83 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		DAD9D35F17C476D300B74D83 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		DAD9D3A117C5344F00B74D83 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		DAD9D3A217C5344F00B74D83 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		DAD9D3A417C598CD00B74D83 /* btn_hivdb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_hivdb.gif; sourceTree = "<group>"; };
+		DAD9D3A617C59A7300B74D83 /* Stanford-University.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stanford-University.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA853E0B17BB50550020DDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA853E1217BB50560020DDCD /* UIKit.framework in Frameworks */,
+				DA853E1417BB50560020DDCD /* Foundation.framework in Frameworks */,
+				DA853E1617BB50560020DDCD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA853E3017BB50560020DDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA853E3617BB50560020DDCD /* SenTestingKit.framework in Frameworks */,
+				DA853E3717BB50560020DDCD /* UIKit.framework in Frameworks */,
+				DA853E3817BB50560020DDCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA853E0517BB50550020DDCD = {
+			isa = PBXGroup;
+			children = (
+				DA853E1717BB50560020DDCD /* InterfaceOnly */,
+				DA853E3B17BB50560020DDCD /* InterfaceOnlyTests */,
+				DA853E1017BB50550020DDCD /* Frameworks */,
+				DA853E0F17BB50550020DDCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA853E0F17BB50550020DDCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA853E0E17BB50550020DDCD /* HIVDB.app */,
+				DA853E3417BB50560020DDCD /* HIVDBTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA853E1017BB50550020DDCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA853E1117BB50550020DDCD /* UIKit.framework */,
+				DA853E1317BB50560020DDCD /* Foundation.framework */,
+				DA853E1517BB50560020DDCD /* CoreGraphics.framework */,
+				DA853E3517BB50560020DDCD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA853E1717BB50560020DDCD /* InterfaceOnly */ = {
+			isa = PBXGroup;
+			children = (
+				DA853E2017BB50560020DDCD /* AppDelegate.h */,
+				DA853E2117BB50560020DDCD /* AppDelegate.m */,
+				DA853E2917BB50560020DDCD /* MainStoryboard.storyboard */,
+				DAD9D35E17C476D300B74D83 /* WebViewController.h */,
+				DAD9D35F17C476D300B74D83 /* WebViewController.m */,
+				DAD9D3A117C5344F00B74D83 /* InfoViewController.h */,
+				DAD9D3A217C5344F00B74D83 /* InfoViewController.m */,
+				DA853E2C17BB50560020DDCD /* ViewController.h */,
+				DA853E2D17BB50560020DDCD /* ViewController.m */,
+				DA853E1817BB50560020DDCD /* Supporting Files */,
+			);
+			path = InterfaceOnly;
+			sourceTree = "<group>";
+		};
+		DA853E1817BB50560020DDCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD9D3A417C598CD00B74D83 /* btn_hivdb.gif */,
+				DAD9D3A617C59A7300B74D83 /* Stanford-University.jpg */,
+				DA853E1917BB50560020DDCD /* HIVDB-Info.plist */,
+				DA853E1A17BB50560020DDCD /* InfoPlist.strings */,
+				DA853E1D17BB50560020DDCD /* main.m */,
+				DA853E1F17BB50560020DDCD /* HIVDB-Prefix.pch */,
+				DA853E2317BB50560020DDCD /* Default.png */,
+				DA853E2517BB50560020DDCD /* Default@2x.png */,
+				DA853E2717BB50560020DDCD /* Default-568h@2x.png */,
+				DA9E585017C16F82008434AC /* RangeChecker.h */,
+				DA9E585117C16F82008434AC /* RangeChecker.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA853E3B17BB50560020DDCD /* InterfaceOnlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA853E4117BB50560020DDCD /* InterfaceOnlyTests.h */,
+				DA853E4217BB50560020DDCD /* InterfaceOnlyTests.m */,
+				DA853E3C17BB50560020DDCD /* Supporting Files */,
+			);
+			path = InterfaceOnlyTests;
+			sourceTree = "<group>";
+		};
+		DA853E3C17BB50560020DDCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA853E3D17BB50560020DDCD /* HIVDBTests-Info.plist */,
+				DA853E3E17BB50560020DDCD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA853E0D17BB50550020DDCD /* HIVDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA853E4617BB50560020DDCD /* Build configuration list for PBXNativeTarget "HIVDB" */;
+			buildPhases = (
+				DA853E0A17BB50550020DDCD /* Sources */,
+				DA853E0B17BB50550020DDCD /* Frameworks */,
+				DA853E0C17BB50550020DDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HIVDB;
+			productName = InterfaceOnly;
+			productReference = DA853E0E17BB50550020DDCD /* HIVDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA853E3317BB50560020DDCD /* HIVDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA853E4917BB50560020DDCD /* Build configuration list for PBXNativeTarget "HIVDBTests" */;
+			buildPhases = (
+				DA853E2F17BB50560020DDCD /* Sources */,
+				DA853E3017BB50560020DDCD /* Frameworks */,
+				DA853E3117BB50560020DDCD /* Resources */,
+				DA853E3217BB50560020DDCD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA853E3A17BB50560020DDCD /* PBXTargetDependency */,
+			);
+			name = HIVDBTests;
+			productName = InterfaceOnlyTests;
+			productReference = DA853E3417BB50560020DDCD /* HIVDBTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA853E0617BB50550020DDCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Paul Kim";
+			};
+			buildConfigurationList = DA853E0917BB50550020DDCD /* Build configuration list for PBXProject "HIVDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA853E0517BB50550020DDCD;
+			productRefGroup = DA853E0F17BB50550020DDCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA853E0D17BB50550020DDCD /* HIVDB */,
+				DA853E3317BB50560020DDCD /* HIVDBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA853E0C17BB50550020DDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA853E1C17BB50560020DDCD /* InfoPlist.strings in Resources */,
+				DA853E2417BB50560020DDCD /* Default.png in Resources */,
+				DA853E2617BB50560020DDCD /* Default@2x.png in Resources */,
+				DA853E2817BB50560020DDCD /* Default-568h@2x.png in Resources */,
+				DA853E2B17BB50560020DDCD /* MainStoryboard.storyboard in Resources */,
+				DAD9D3A517C598CD00B74D83 /* btn_hivdb.gif in Resources */,
+				DAD9D3A717C59A7300B74D83 /* Stanford-University.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA853E3117BB50560020DDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA853E4017BB50560020DDCD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA853E3217BB50560020DDCD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA853E0A17BB50550020DDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA853E1E17BB50560020DDCD /* main.m in Sources */,
+				DA853E2217BB50560020DDCD /* AppDelegate.m in Sources */,
+				DA853E2E17BB50560020DDCD /* ViewController.m in Sources */,
+				DA9E585217C16F82008434AC /* RangeChecker.m in Sources */,
+				DAD9D36017C476D300B74D83 /* WebViewController.m in Sources */,
+				DAD9D3A317C5344F00B74D83 /* InfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA853E2F17BB50560020DDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA853E4317BB50560020DDCD /* InterfaceOnlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA853E3A17BB50560020DDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA853E0D17BB50550020DDCD /* HIVDB */;
+			targetProxy = DA853E3917BB50560020DDCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA853E1A17BB50560020DDCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA853E1B17BB50560020DDCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA853E2917BB50560020DDCD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA853E2A17BB50560020DDCD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DA853E3E17BB50560020DDCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA853E3F17BB50560020DDCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA853E4417BB50560020DDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA853E4517BB50560020DDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA853E4717BB50560020DDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tommy Liu (6GBMRK6Z8Q)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterfaceOnly/HIVDB-Prefix.pch";
+				INFOPLIST_FILE = "InterfaceOnly/HIVDB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = HIVDB;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA853E4817BB50560020DDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tommy Liu (6GBMRK6Z8Q)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterfaceOnly/HIVDB-Prefix.pch";
+				INFOPLIST_FILE = "InterfaceOnly/HIVDB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = HIVDB;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DA853E4A17BB50560020DDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InterfaceOnly.app/InterfaceOnly";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterfaceOnly/InterfaceOnly-Prefix.pch";
+				INFOPLIST_FILE = "InterfaceOnlyTests/HIVDBTests-Info.plist";
+				PRODUCT_NAME = HIVDBTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DA853E4B17BB50560020DDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InterfaceOnly.app/InterfaceOnly";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InterfaceOnly/InterfaceOnly-Prefix.pch";
+				INFOPLIST_FILE = "InterfaceOnlyTests/HIVDBTests-Info.plist";
+				PRODUCT_NAME = HIVDBTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA853E0917BB50550020DDCD /* Build configuration list for PBXProject "HIVDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA853E4417BB50560020DDCD /* Debug */,
+				DA853E4517BB50560020DDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA853E4617BB50560020DDCD /* Build configuration list for PBXNativeTarget "HIVDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA853E4717BB50560020DDCD /* Debug */,
+				DA853E4817BB50560020DDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA853E4917BB50560020DDCD /* Build configuration list for PBXNativeTarget "HIVDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA853E4A17BB50560020DDCD /* Debug */,
+				DA853E4B17BB50560020DDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA853E0617BB50550020DDCD /* Project object */;
+}
